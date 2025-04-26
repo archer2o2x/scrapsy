@@ -1,0 +1,10 @@
+[package]
+name = "scrapsy"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rand = "0.8.5"
+reqwest = { version = "0.12.15", features = ["blocking"] }
+scraper = { version = "*" }
+mlua = { version = "0.10", features = ["lua52", "vendored"] }
